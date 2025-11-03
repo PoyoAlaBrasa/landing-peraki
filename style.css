@@ -1,0 +1,111 @@
+html, body {
+
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+
+    background-color: black;
+}
+
+.Encabezado {
+
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #FFC40D;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Resources/Montserrat-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Resources/Montserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Righteous';
+  src: url('Resources/Righteous-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.LogoContainer {
+
+    display: flex;
+    align-items: center;
+}
+
+.NombreLogo {
+
+    font-family: 'Righteous';
+    color: #11454F;
+    font-size: 36px;
+}
+
+.Menu-Horizontal {
+
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    min-width: 60%;
+    padding-right: 100px;
+
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.Menu-Horizontal li a {
+
+    display: inline-block;
+    text-decoration: none;
+    color: #11454F;
+}
+
+.Menu-Horizontal li a.BotonInicioSesion {
+
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #11454F;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.Menu-Horizontal li a.BotonInicioSesion:hover {
+
+
+    background-color: #207283;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.Logo {
+
+    max-width: 100px;
+    max-height: 100px;
+    padding: 10px 10px;
+    padding-left: 100px;
+}
+
+.Logo img {
+
+    max-width: 80px;
+    max-height: 80px;
+}
